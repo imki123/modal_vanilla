@@ -1,17 +1,27 @@
 <html>
   <head>
     <title>Modal_vanilla</title>
-    <link rel="stylesheet" href="./index.css"
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
   </head>
   <body>
     <div class="background">
       <div class="profile">
-        <label class="title">이름 : </label>
-        <span class="text">이름을 입력해주세요</span>
-        <button class="button">변경</button>
+        <div class="item">
+          <label class="title">이름 :</label>
+          <span id="text_1" class="text">이름을 입력해주세요</span>
+          <button class="button">변경</button>
+        </div>
       </div>
       <div class="modal">
-
+        <div>
+          <span class="title"></span>
+          <input class="input">
+        </div>
+        <div class="buttons">
+          <button class="ok">ok</button>
+          <button class="cancel">cancel</button>
+        </div>
       </div>
     </div>
   </body>
